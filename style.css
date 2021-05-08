@@ -4,8 +4,8 @@ body{
     font-size: 20px;
 }
 
-.name-highlight{
-    color: palevioletred;
+.orange-highlight{
+    color: orange;
 }
 .button-style{
     color: white;
@@ -14,7 +14,7 @@ body{
 }
 
 .half-width{
-    width: 35%;
+    width: 32%;
     float: left;
     margin-left: 5%;
     padding: 2%;
@@ -25,7 +25,6 @@ body{
 .top-bannar{
     background-image: url("/img/top-banner.png");
     background-repeat: no-repeat;
-    border: 1px solid red;
 }
 section{
     height: 500px;
@@ -39,18 +38,36 @@ section{
     color: white;
     font-weight: 700;
 }
-.second-half-width{
-    width: 35%;
-    float: left;
-    margin-left: 5%;
-    padding: 2%;
-}
+
 .dream-img{
     width: 100%;
 }
 .dream-bannar{
-    border: 1px solid green;
     background-image: url(/img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-exprience{
+    box-shadow: 10px 10px 40px gray;
+    
+}
+.exprience-area{
+    background-image: url(/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#pro-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
 }
